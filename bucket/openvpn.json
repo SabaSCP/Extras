@@ -10,7 +10,7 @@
 		"To run OpenVPN you must complete the install by running: \"$dir\\install-context.reg\"",
 		"Run '$dir\\install-openvpn-service.ps1' to install OpenVPNServiceInteractive and OpenVPNService services.",
         "Run '$dir\\uninstall-openvpn-service.ps1' to uninstall the services."
-	]
+	],
     "suggest": {
         "openssl": "openssl"
     },
