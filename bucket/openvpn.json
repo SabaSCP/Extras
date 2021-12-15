@@ -5,7 +5,7 @@
     "license": {
         "identified": "GPL-2.0-only",
         "url": "https://github.com/OpenVPN/openvpn/blob/master/COPYING"
-    }
+    },
     "suggest": {
         "openssl": "openssl"
     },
