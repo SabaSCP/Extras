@@ -6,7 +6,11 @@
         "identified": "GPL-2.0-only",
         "url": "https://github.com/OpenVPN/openvpn/blob/master/COPYING"
     },
-	"notes": "Finalize the OpenVPN installation by running: \"$dir\\install-context.reg\"",
+	"notes": [
+		"To run OpenVPN you must complete the install by running: \"$dir\\install-context.reg\"",
+		"Run '$dir\\install-sshd.ps1' to install OpenVPNServiceInteractive service.",
+        "Run '$dir\\uninstall-sshd.ps1' to uninstall the services."
+	]
     "suggest": {
         "openssl": "openssl"
     },
@@ -47,10 +51,11 @@
             "Invoke-ExternalCommand -FilePath \"$dir\\Uninstall.exe\" -ArgumentList '/S' | Out-Null"
         ]
     },
-    "bin": "OpenVPN\\bin\\openvpn.exe",
+	"extract_dir": "OpenVPN",
+    "bin": "bin\\openvpn.exe",
     "shortcuts": [
         [
-            "OpenVPN\\bin\\openvpn-gui.exe",
+            "bin\\openvpn-gui.exe",
             "OpenVPN GUI"
         ]
     ],
