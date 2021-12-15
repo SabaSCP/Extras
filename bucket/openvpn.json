@@ -29,10 +29,10 @@
             "Invoke-ExternalCommand -FilePath \"$dir\\Uninstall.exe\" -ArgumentList '/S' | Out-Null"
         ]
     },
-    "bin": "bin\\openvpn.exe",
+    "bin": "OpenVPN\\bin\\openvpn.exe",
     "shortcuts": [
         [
-            "bin\\openvpn-gui.exe",
+            "OpenVPN\\bin\\openvpn-gui.exe",
             "OpenVPN GUI"
         ]
     ],
