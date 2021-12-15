@@ -19,10 +19,6 @@
             "hash": "f2ddd41956c0950008199dfed741e6c0c7167bc3d63eb3ac1d8fa726a013d037"
         }
     },
-
-    "depends": "tap",
-    "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall.exe.nsis\" -Recurse -Force",
-
     "pre_install": [
         "if ([Environment]::OSVersion.Version.Major -lt 10) { error 'Windows 10 is required since version 2.4.8. Use \"versions/openvpn-w7\" instead'; break }",
         "if (-not (is_admin)) { throw 'Administrator privileges are needed for installation' }"
