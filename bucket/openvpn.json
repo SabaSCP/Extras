@@ -6,13 +6,22 @@
         "identified": "GPL-2.0-only",
         "url": "https://github.com/OpenVPN/openvpn/blob/master/COPYING"
     },
+	"notes": "Finalize the OpenVPN installation by running: \"$dir\\install-context.reg\"",
     "suggest": {
         "openssl": "openssl"
     },
     "architecture": {
         "64bit": {
-            "url": "https://swupdate.openvpn.org/community/releases/OpenVPN-2.5.4-I604-amd64.msi",
-            "hash": "aff73b39a2a5bacdef096e1e89f9714fb32e302274baa12d5500578a21c0d1a6"
+            "url": [
+				"https://swupdate.openvpn.org/community/releases/OpenVPN-2.5.4-I604-amd64.msi",
+				"https://github.com/SabaSCP/Extras/raw/feature/openvpn-254/scripts/openvpn/install-context.reg",
+				"https://github.com/SabaSCP/Extras/raw/feature/openvpn-254/scripts/openvpn/uninstall-context.reg"
+			],
+            "hash": [
+				"aff73b39a2a5bacdef096e1e89f9714fb32e302274baa12d5500578a21c0d1a6",
+				"29b8d52d0040f6cc4d66e5f679c2109012ef42149196d701d624c455252adda1",
+				"e8c3fb585815db36f3b8510fb0d8bdd120eec448e4ce54d3cbb53f4a2787e262"
+			]
         },
         "32bit": {
             "url": "https://swupdate.openvpn.org/community/releases/OpenVPN-2.5.4-I604-x86.msi",
@@ -21,7 +30,16 @@
     },
     "pre_install": [
         "if ([Environment]::OSVersion.Version.Major -lt 10) { error 'Windows 10 is required since version 2.4.8. Use \"versions/openvpn-w7\" instead'; break }",
-        "if (-not (is_admin)) { throw 'Administrator privileges are needed for installation' }"
+        "if (-not (is_admin)) { throw 'Administrator privileges are needed for installation' }",
+        "$app_root = \"$dir\".Replace('\\', '\\\\')",
+        "'install-context.reg', 'uninstall-context.reg' | ForEach-Object {",
+        "    $content = Get-Content \"$dir\\$_\"",
+        "    $content = $content.Replace('$app_root', $app_root)",
+        "    if ($global) {",
+        "       $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
+        "    }",
+        "    Set-Content \"$dir\\$_\" $content -Encoding Ascii",
+        "}"
     ],
     "uninstaller": {
         "script": [
