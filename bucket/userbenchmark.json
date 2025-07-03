@@ -1,10 +1,10 @@
 {
-    "version": "5.2.5.0",
+    "version": "5.2.6.0",
     "description": "Speed test PC in less than a minute.",
     "homepage": "https://www.userbenchmark.com/",
     "license": "Freeware",
     "url": "https://www.userbenchmark.com/resources/download/UserBenchmark.zip",
-    "hash": "bde865dbab9328c662e6ed8ed2ea99ffc5b8eb0220cc0b3984beea25e4ec0052",
+    "hash": "9fc49ac2714bd5dc105c67bc19f6f15d360afccb0a15a097bac0c6a2b39b4d22",
     "extract_dir": "UserBenchmark",
     "pre_install": "Copy-Item \"$persist_dir\\User\" \"$dir\" -Force -Recurse -ErrorAction SilentlyContinue",
     "shortcuts": [
