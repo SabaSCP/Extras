@@ -1,12 +1,12 @@
 {
-    "version": "0.201.8",
+    "version": "0.202.5",
     "description": "Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. It's also open source.",
     "homepage": "https://zed.dev/",
     "license": "AGPL-3.0, Apache-2.0, GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/deevus/zed-windows-builds/releases/download/v0.201.8/zed-opengl.exe",
-            "hash": "f49e20c002b9d2894a0bcad7db7418ab41e064151b87792455bbfff20b0c6bc5"
+            "url": "https://github.com/deevus/zed-windows-builds/releases/download/v0.202.5/zed-opengl.exe",
+            "hash": "f765040630435af1712779d560380de86dc602e2b6ff289e3f51c4f0344713ea"
         }
     },
     "bin": [
