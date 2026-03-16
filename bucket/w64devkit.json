@@ -1,16 +1,16 @@
 {
-    "version": "2.1.0",
+    "version": "2.6.0",
     "description": "Portable C and C++ Development Kit for x64 Windows",
     "homepage": "https://github.com/skeeto/w64devkit",
     "license": "Unlicense",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/skeeto/w64devkit/releases/download/v2.1.0/w64devkit-x64-2.1.0.exe#/dl.7z",
-            "hash": "3839da025a192e9cacd5caa3ed5150153ab2255800d3672213a5c66e11d6e618"
+            "url": "https://github.com/skeeto/w64devkit/releases/download/v2.6.0/w64devkit-x64-2.6.0.exe#/dl.7z",
+            "hash": "93ed4fa5536fedabca3bb59edb19abd24d1107599a582ae4e4a5377d4384168a"
         },
         "32bit": {
-            "url": "https://github.com/skeeto/w64devkit/releases/download/v2.1.0/w64devkit-x86-2.1.0.exe#/dl.7z",
-            "hash": "fadf16261e03c7ca3169e89ca274e0bb673e4c31f8f572bd005e401fb39a7023"
+            "url": "https://github.com/skeeto/w64devkit/releases/download/v2.6.0/w64devkit-x86-2.6.0.exe#/dl.7z",
+            "hash": "8a1d136fdfc88e8b1fa03855993b1647282723ec6dace794d4b468a69ef7ae6c"
         }
     },
     "extract_dir": "w64devkit",
