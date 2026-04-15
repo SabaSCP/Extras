@@ -1,20 +1,20 @@
 {
-    "version": "1.2.3",
+    "version": "1.2.4",
     "description": "A custom client designed to enhance your Discord experience while keeping everything lightweight.",
     "homepage": "https://legcord.app/",
     "license": "OSL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Legcord/Legcord/releases/download/v1.2.3/Legcord-1.2.3-win-x64.zip",
-            "hash": "bbdc38009dcffcbde5d8f36bbfea665221936a7f6b085c68b8025135fe98e78a"
+            "url": "https://github.com/Legcord/Legcord/releases/download/v1.2.4/Legcord-1.2.4-win-x64.zip",
+            "hash": "5b702362a744b1c8e0759151e9abd5210bf9c1ee2610e82c2b9bd9f6bdd02eee"
         },
         "32bit": {
-            "url": "https://github.com/Legcord/Legcord/releases/download/v1.2.3/Legcord-1.2.3-win-ia32.zip",
-            "hash": "ae8dc107a2839036d3a1ec70809da4ec77aba7c4e7b60594a7d4b78431d5b221"
+            "url": "https://github.com/Legcord/Legcord/releases/download/v1.2.4/Legcord-1.2.4-win-ia32.zip",
+            "hash": "c76f4ea3a7668ea8de6c3e37b5e36b7644adeada3c6822ea1fc0839a52c4e424"
         },
         "arm64": {
-            "url": "https://github.com/Legcord/Legcord/releases/download/v1.2.3/Legcord-1.2.3-win-arm64.zip",
-            "hash": "f87be23ccf043ea7e16772eb36d69ac71e89a48b7ce0e196348bce13ee440a58"
+            "url": "https://github.com/Legcord/Legcord/releases/download/v1.2.4/Legcord-1.2.4-win-arm64.zip",
+            "hash": "6b21c1c4f80a569b9d42daa64148bdd7121e323c62f1d2e04c6772f9d047e8c9"
         }
     },
     "shortcuts": [
