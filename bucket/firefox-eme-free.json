@@ -1,5 +1,5 @@
 {
-    "version": "154.0.1",
+    "version": "155.0.1",
     "description": "EME-free version of the Firefox browser, with DRM-support disabled by default.",
     "homepage": "https://www.mozilla.org/firefox/",
     "license": "MPL-2.0",
@@ -11,12 +11,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/154.0.1/win64-EME-free/en-US/Firefox%20Setup%20154.0.1.exe#/dl.7z",
-            "hash": "sha512:0d8def0e027cbf5e61c74a4a7449c58ac00c16577c68413df17ed8f66243dacb72f655cb18feaa12b16e1043cd9787fdf574b7b7a0f71ba1e7f9989c840179f0"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/155.0.1/win64-EME-free/en-US/Firefox%20Setup%20155.0.1.exe#/dl.7z",
+            "hash": "sha512:2c9ba3b7fab5fa9247ef26ff9b2b097912b0ce4466793b7e34ba8ff56be4d15a076b387804cd71a528b8e320c8ef871bda87b6b494efa8cfc9a2dcf19e725107"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/154.0.1/win32-EME-free/en-US/Firefox%20Setup%20154.0.1.exe#/dl.7z",
-            "hash": "sha512:b2a6fbc5af1a104be0517c2c8e30e96f2352bfc61a169d7040c85530a105123eae4b0022e99a6235a9a303d6567ce0a782d02a4e572faed0a5cccb447f7c4edb"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/155.0.1/win32-EME-free/en-US/Firefox%20Setup%20155.0.1.exe#/dl.7z",
+            "hash": "sha512:2eca9ed0adab4812abad9d399aa95391e0d786c369fea5f94c1c671c6bb8c2bfe3bb6eb027943bf63178e595178f7a6901e1038f7e175768844a06af5f9ca7df"
         }
     },
     "extract_dir": "core",
