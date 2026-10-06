@@ -1,5 +1,5 @@
 {
-    "version": "14.0.583",
+    "version": "14.1.586",
     "homepage": "https://www.git-tower.com",
     "description": "An easy to use GUI client for Git with powerful features.",
     "license": {
@@ -9,8 +9,8 @@
     "suggest": {
         ".NET Desktop Runtime": "extras/windowsdesktop-runtime"
     },
-    "url": "https://www.git-tower.com/apps/tower3-win/583-26c905da/Tower-14.0.583.exe#/dl.7z",
-    "hash": "sha1:d66b143e9228473bc9475b929eab79aee71c4eb2",
+    "url": "https://www.git-tower.com/apps/tower3-win/586-6dd78fd9/Tower-14.1.586.exe#/dl.7z",
+    "hash": "sha1:f45bc1cd4a08f913b0d350f27510b2c18cf5ef7f",
     "extract_dir": "lib\\native",
     "post_install": "Remove-Item \"$dir\\lib\" -Force -Recurse",
     "bin": "Tower.exe",
