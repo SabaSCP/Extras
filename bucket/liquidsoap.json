@@ -1,13 +1,13 @@
 {
-    "version": "2.4.5",
+    "version": "2.4.6",
     "description": "Icecast-compatible streamer for streaming audio and video",
     "homepage": "https://www.liquidsoap.info",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/savonet/liquidsoap/releases/download/v2.4.5/liquidsoap-2.4.5-win64.zip",
-            "hash": "ccf195b47bacfb2c2d75d186ce72daab31f2ae6f2332f5faa071966f5281880a",
-            "extract_dir": "liquidsoap-2.4.5-win64"
+            "url": "https://github.com/savonet/liquidsoap/releases/download/v2.4.6/liquidsoap-2.4.6-win64.zip",
+            "hash": "4b22149c7acadbc286ed595190b6785c078f91353c60ca387efa499a75398e8a",
+            "extract_dir": "liquidsoap-2.4.6-win64"
         }
     },
     "bin": "liquidsoap.exe",
